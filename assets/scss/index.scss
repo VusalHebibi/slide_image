@@ -1,0 +1,121 @@
+// #section_1 {
+//   background: linear-gradient(135deg, #5fc7c6 0%, #361291 100%);
+//   height: 100%;
+//   .container {
+//     p {
+//       color: #fff;
+//       padding-bottom: 50px;
+//     }
+//     .row {
+//       position: relative;
+//       .col {
+//         padding: 0;
+//         .header {
+//           h2,
+//           p {
+//             color: #fff;
+//           }
+
+//           p {
+//             font-weight: 100;
+//           }
+//         }
+
+//         .carousel_container {
+//           margin-top: 30px !important;
+//           margin-bottom: 10px !important;
+//           // width: 85%;
+//           margin: 0 auto;
+//           overflow: hidden;
+
+//           i {
+//             position: absolute;
+//             top: 60%;
+//             transform: translateY(-50%);
+//             color: #fff;
+//             width: 40px;
+//             height: 40px;
+//             border: 1px solid #fff;
+//             line-height: 40px;
+//             text-align: center;
+//             border-radius: 50%;
+//             cursor: pointer;
+//             transition: 0.3s all ease;
+//             &:hover {
+//               box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+//             }
+//           }
+//           #preBtn {
+//             left: 40px;
+//           }
+//           #nextBtn {
+//             right: 40px;
+//           }
+//           .carousel_slider {
+//             display: flex;
+//             width: 100%;
+//             height: 624px;
+//             img {
+//               width: 100%;
+//               object-fit: cover;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+* {
+  text-decoration: none !important;
+}
+
+.items {
+  // max-width: 700px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .action {
+    position: absolute;
+    z-index: 1;
+  }
+
+  a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .images {
+    .image {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .left {
+    left: 3%;
+  }
+
+  .right {
+    right: 3%;
+  }
+}

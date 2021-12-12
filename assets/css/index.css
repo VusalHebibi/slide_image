@@ -1,0 +1,65 @@
+* {
+  text-decoration: none !important;
+}
+
+.items {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.items .action {
+  position: absolute;
+  z-index: 1;
+}
+
+.items a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.13);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.items .images .image {
+  display: none;
+}
+
+.items .images .active {
+  display: block;
+}
+
+.items .images img {
+  width: 100%;
+  height: 100%;
+}
+
+.items .left {
+  left: 3%;
+}
+
+.items .right {
+  right: 3%;
+}
+/*# sourceMappingURL=index.css.map */
